@@ -292,6 +292,10 @@ body {
     border-bottom-color: white;
 }
 
+.menu_narrow ul li a.black:hover {
+    border-bottom-color: black;
+}
+
 .container .navigate {
     text-align: center;
 }

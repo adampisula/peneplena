@@ -153,3 +153,7 @@ body {
 .menu_narrow ul li a:hover {
     border-bottom-color: white;
 }
+
+.menu_narrow ul li a.black:hover {
+    border-bottom-color: black;
+}
