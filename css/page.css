@@ -154,6 +154,6 @@ body {
     border-bottom-color: white;
 }
 
-.menu_narrow ul li a.black:hover {
+.menu_narrow.black ul li a:hover {
     border-bottom-color: black;
 }
