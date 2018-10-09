@@ -1,0 +1,181 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    /*background-image is in the .php file*/
+}
+
+.home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    .site-title {
+        display: none;
+    }
+
+    .site-logo {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .site-title {
+        display: block;
+    }
+
+    .site-logo {
+        display: none;
+    }
+}
+
+.site-title {
+    color: white;
+    font-family: "Libertine"; 
+    font-size: 92px;
+    text-align: center;
+    /*letter-spacing: 16px;*/
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.site-title.black {
+    color: black;
+}
+
+.site-logo {
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 60%;
+}
+
+.home ul {
+    display: block;
+    padding: 0;
+    text-align: center;
+}
+
+.home ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.home ul li a {
+    padding: 12px 20px;
+    border: solid 2px white;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Roboto Mono", serif;
+    letter-spacing: 0px;
+    font-weight: normal;
+    transition: all 0.3s ease-out;
+    background: transparent;
+    width: auto;
+    height: auto;
+    position: relative;
+    background: rgba(34, 34, 34, 0.8);
+}
+
+.home ul li a.black {
+    border: solid 2px black;
+    color: black;
+}
+
+.home ul li a:hover {
+    background: rgba(255, 255, 255, 1) !important;
+    color: black;
+}
+
+.home ul li a.black:hover {
+    background: rgba(0, 0, 0, 1) !important;
+    color: white;
+}
+
+.kherut-logo {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.kherut-logo.black {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.kherut-logo img {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 10%;
+    top: 10%;
+}
+
+.kherut-logo div {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 0;
+    margin: 0;
+    border-radius: 25px;
+    z-index: 1;
+    transition: all 0.3s ease-out;
+}
+
+.kherut-logo div.black {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.kherut-logo div:hover {
+    width: 250px;
+}
+
+.kherut-logo div a {
+    color: black;
+    text-decoration: none;
+    /*font-family: "Poppins";*/
+    font-family: monospace;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+    white-space: nowrap;
+    position: absolute;
+    right: 20px;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.kherut-logo div a.black {
+    color: white;
+}
+
+.kherut-logo div:hover a {
+    opacity: 1;
+}
