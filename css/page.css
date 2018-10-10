@@ -157,3 +157,58 @@ body {
 .menu_narrow.black ul li a:hover {
     border-bottom-color: black;
 }
+
+.ad_side {
+    border: solid 2px black;
+    position: fixed;
+    transform: translate(0%, -50%);
+    top: 50%;
+}
+
+.ad_content {
+    border: solid 2px white;
+    margin: auto;
+}
+
+.ad_popunder {
+    height: 300px;
+    width: 720px;
+}
+
+.ad_largerectangle {
+    height: 280px;
+    width: 336px;
+}
+
+.ad_rectangle {
+    height: 150px;
+    width: 180px;
+}
+
+.ad_wideskyscraper {
+    height: 600px;
+    width: 160px;
+}
+
+.ad_skyscraper {
+    height: 600px;
+    width: 120px;
+}
+
+.ad_verticalrectangle {
+    height: 400px;
+    width: 240px;
+}
+
+.ad_verticalbanner {
+    height: 240px;
+    width: 120px;
+}
+
+.ad_left {
+    left: 20px;
+}
+
+.ad_right {
+    right: 20px;
+}

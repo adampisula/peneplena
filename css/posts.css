@@ -318,3 +318,38 @@ body {
     background: white;
     color: black;
 }
+
+.ad_side {
+    border: solid 2px black;
+    position: fixed;
+    transform: translate(0%, -50%);
+    top: 50%;
+}
+
+.ad_wideskyscraper {
+    height: 600px;
+    width: 160px;
+}
+
+.ad_skyscraper {
+    height: 600px;
+    width: 120px;
+}
+
+.ad_verticalrectangle {
+    height: 400px;
+    width: 240px;
+}
+
+.ad_verticalbanner {
+    height: 240px;
+    width: 120px;
+}
+
+.ad_left {
+    left: 20px;
+}
+
+.ad_right {
+    right: 20px;
+}
