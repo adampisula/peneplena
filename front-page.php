@@ -58,7 +58,7 @@
                 });
                 
                 getAverageColor("<?php background(); ?>", function(color) {
-                    $(".home ul li a").css("background", "rgba(" + color + ",0.8)");
+                    $(".menu ul li a").css("background", "rgba(" + color + ",0.55)");
                     
                     var cArray = color.split(",");
                     var cHex = "#";
@@ -74,13 +74,6 @@
                 }, 250);
             });
         </script>
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="blur-svg">
-            <defs>
-                <filter id="blur-filter">
-                    <feGaussianBlur stdDeviation="3"></feGaussianBlur>
-                </filter>
-            </defs>
-        </svg>
         <div class="home">
             <h1 class="site-title"><?php bloginfo("name"); ?></h1>
             <img class="site-logo" src="<?php bloginfo('template_url'); ?>/img/logo.png" />
