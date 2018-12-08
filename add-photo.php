@@ -8,8 +8,7 @@
         <input type="text" name="link">
         <input type="submit" name="submit" value="Upload">
     </form>
-<?php   endif; ?>
-<?php   else: ?>
+<?php   else : ?>
     <p>You're not logged in, sorry :/</p>
     <meta http-equiv="refresh" content="2; URL='http://peneplena.ct8.pl/wp-admin/'" />
 <?php   endif; ?>
